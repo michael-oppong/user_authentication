@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <form action="register.php" method="post">
+            <h1 class="title">Register to track attendance</h1>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name"><br></br>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br></br>
+            <input type="email" id="email" name="email" placeholder="Email"><br><br>
+            <input type="text" name="password" id="password" placeholder="Password"><br><br>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password"><br></br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <p class="notice"></p>
+    <p class="message">
+        Already have an account? 
+        <a href="login.php">Login Here</a>
+    </p>
+
+    <script src="assets/index.js"></script>
+</body>
+</html>
